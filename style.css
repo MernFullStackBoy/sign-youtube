@@ -34,7 +34,7 @@ input {
     height: 60px;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.267),  inset 0 0 3px 1px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.267), inset 0 0 3px 1px;
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
     margin-top: 20px;
@@ -55,7 +55,6 @@ button {
     margin-top: 20px;
     transition: 0.1s;
 }
-
 button:active {
     transform: translateY(5%);
     box-shadow: none;
@@ -76,4 +75,35 @@ i {
     position: relative;
     top: 65px;
     right: 98px;
+}
+
+@media only screen and (max-width: 480px) {
+    form {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    input {
+        height: 50px;
+    }
+    button {
+        height: 40px;
+        font-size: 1.3rem;
+    }
+
+    i {
+        font-size: 1.2rem;
+    }
+
+    #eye1 {
+        bottom: 5px;
+    }
+
+    #eye2 {
+        margin-bottom: 4px;
+        margin-left: 3px;
+    }
 }
