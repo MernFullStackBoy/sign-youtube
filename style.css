@@ -86,9 +86,11 @@ i {
     h1 {
         font-size: 2rem;
     }
+
     input {
         height: 50px;
     }
+    
     button {
         height: 40px;
         font-size: 1.3rem;
